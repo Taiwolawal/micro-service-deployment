@@ -6,13 +6,13 @@ metadata:
 spec:
   acme:
     server: https://acme-v02.api.letsencrypt.org/directory
-    email: benita_lv@yahoo.com
+    email: taiwolawal360@gmail.com
     privateKeySecretRef:
-      name: letsencrypt-test-key
+      name: letsencrypt-test
     solvers:
     - selector:
         dnsZones:
-          - test.bossladyb.online
+          - microservice.easydevop.com
       dns01:
         route53:
           region: us-east-1

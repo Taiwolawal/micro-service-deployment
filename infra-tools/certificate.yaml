@@ -1,0 +1,14 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: app-cert
+spec:
+  secretName: app-secret
+  issuerRef:
+    name: letsencrypt-test
+    kind: ClusterIssuer
+  commonName: nginx.easydevop.com
+  dnsNames:
+  - nginx.easydevop.com 
+  - secondnginx.easydevop.com
+  - argocd.easydevop.com 
