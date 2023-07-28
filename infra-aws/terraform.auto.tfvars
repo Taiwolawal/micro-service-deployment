@@ -49,7 +49,7 @@ eks_managed_node_groups = {
 
     instance_types = ["t3.medium"]
     capacity_type  = "ON_DEMAND"
-    disk_size      = 35
+    disk_size      = 40
   }
 }
 
