@@ -11,3 +11,5 @@ helm install my-release autoscaler/cluster-autoscaler \
 
 ## To ensure DNS records are deleted as expected.
 helm install stable/external-dns --namespace=kube-system --name=external-dns --set policy=sync
+
+![image](https://github.com/Taiwolawal/micro-service-deployment/assets/50557587/e01023a6-09ae-4bec-9a5c-49502143c498)
