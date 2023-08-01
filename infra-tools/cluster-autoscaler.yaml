@@ -41,6 +41,7 @@ autoscalingGroups: []
 #   maxSize: 2
 #   minSize: 1
 
+
 # autoscalingGroupsnamePrefix -- For GCE. At least one element is required if not using `autoDiscovery`. For example:
 # <pre>
 # - name: ig01<br />

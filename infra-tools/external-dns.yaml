@@ -657,6 +657,8 @@ vinyldns:
 ##
 domainFilters: 
   - "easydevop.com"
+  - "microservice.easydevop.com"
+  - "argocd.microservice.easydevop.com"
 ## @param excludeDomains Exclude subdomains (optional)
 ##
 excludeDomains: []
@@ -697,7 +699,7 @@ logLevel: info
 logFormat: text
 ## @param policy Modify how DNS records are synchronized between sources and providers (options: sync, upsert-only )
 ##
-policy: upsert-only
+policy: sync
 ## @param registry Registry method to use (options: txt, aws-sd, noop)
 ## ref: https://github.com/kubernetes-sigs/external-dns/blob/master/docs/proposal/registry.md
 ##

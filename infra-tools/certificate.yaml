@@ -7,8 +7,6 @@ spec:
   issuerRef:
     name: letsencrypt-test
     kind: ClusterIssuer
-  commonName: nginx.easydevop.com
   dnsNames:
-  - nginx.easydevop.com 
-  - secondnginx.easydevop.com
-  - argocd.easydevop.com 
+  - microservice.easydevop.com 
+   

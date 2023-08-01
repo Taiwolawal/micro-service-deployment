@@ -9,13 +9,13 @@ metadata:
 spec:
   ingressClassName: "nginx"
   rules:
-  - host: argocd.easydevop.com
+  - host: argocd.microservice.easydevop.com
     http:
       paths:
       - path: /
         pathType: Prefix
         backend:
           service:
-            name: argocd-server
+            name: argo-cd-argocd-server 
             port:
               name: https
