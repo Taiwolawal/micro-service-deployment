@@ -51,6 +51,16 @@ eks_managed_node_groups = {
     capacity_type  = "ON_DEMAND"
     disk_size      = 40
   }
+
+  dev-eks-2 = {
+    min_size     = 1
+    max_size     = 2
+    desired_size = 1
+
+    instance_types = ["t3.medium"]
+    capacity_type  = "ON_DEMAND"
+    disk_size      = 35
+  }
 }
 
 manage_aws_auth_configmap = true
